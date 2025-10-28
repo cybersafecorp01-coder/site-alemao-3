@@ -17,15 +17,15 @@ function toggleMobileMenu() {
 
 // WhatsApp Functions
 function openWhatsApp(service) {
-    const phoneNumber = '99999999';
-    const message = `Olá, Hyundai! Gostaria de saber mais sobre ${service}.`;
+    const phoneNumber = '5511958542489';
+    const message = `Olá, desejo um atendimento! ${service}.`;
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
 function sendSimulationToWhatsApp(formData, result) {
-    const phoneNumber = '551151924444';
-    const message = `Olá, Hyundai! Fiz uma simulação no site com os seguintes dados:
+    const phoneNumber = '5511958542489';
+    const message = `Olá, desejo um atendimento!:
 
 Nome: ${formData.name}
 CPF/CNPJ: ${formData.cpfCnpj}
@@ -379,7 +379,7 @@ function showLoading(button) {
 
 // Error handling for WhatsApp redirects
 function handleWhatsAppError() {
-    alert('Não foi possível abrir o WhatsApp. Verifique se o aplicativo está instalado ou entre em contato pelo telefone (11) 9 9999-9999.');
+    alert('Não foi possível abrir o WhatsApp. Verifique se o aplicativo está instalado ou entre em contato pelo telefone (11) 95854-2489.');
 }
 
 // Add error handling to WhatsApp functions
