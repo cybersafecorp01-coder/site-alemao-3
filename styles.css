@@ -45,7 +45,7 @@ body {
 .logo-icon {
     width: 40px;
     height: 40px;
-    background: #1e40af;
+    background: #910909dd;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -74,7 +74,7 @@ body {
 }
 
 .nav a:hover {
-    color: #1e40af;
+    color: #910909;
 }
 
 .header-actions {
@@ -130,23 +130,23 @@ body {
 }
 
 .btn-primary {
-    background: #1e40af;
+    background: #910909;
     color: white;
 }
 
 .btn-primary:hover {
-    background: #1d4ed8;
+    background: #910909;
     transform: translateY(-2px);
 }
 
 .btn-outline {
     background: transparent;
-    color: #1e40af;
-    border: 2px solid #1e40af;
+    color: #910909;
+    border: 2px solid #910909;
 }
 
 .btn-outline:hover {
-    background: #1e40af;
+    background: #910909;
     color: white;
 }
 
@@ -173,7 +173,7 @@ body {
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('img/dentista-de-confianca.jpg');
+    background-image: url('img/banner-1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@ body {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(30, 64, 175, 0.95) 0%, rgba(17, 24, 39, 0.9) 50%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(135deg, #910909 0%, rgba(17, 24, 39, 0.9) 50%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .hero-content {
@@ -219,7 +219,7 @@ body {
 
 .hero-highlight {
     display: block;
-    background: linear-gradient(to right, #60a5fa, #06d6a0);
+    background: linear-gradient(to right, #910909, #910909);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -411,7 +411,7 @@ section {
 
 .service-icon.blue {
     background: #dbeafe;
-    color: #2563eb;
+    color: #910909;
 }
 
 .service-icon.green {
@@ -453,7 +453,7 @@ section {
 
 /* Process Section */
 .process-section {
-    background: linear-gradient(135deg, #1e293b 0%, #1e40af 50%, #1e293b 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #910909 50%, #1e293b 100%);
     position: relative;
     overflow: hidden;
 }
@@ -596,7 +596,7 @@ section {
 
 .form-header i {
     font-size: 32px;
-    color: #1e40af;
+    color: #910909;
 }
 
 .form-header h3 {
@@ -749,7 +749,7 @@ section {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    color: #1e40af;
+    color: #910909;
     font-size: 24px;
 }
 
@@ -757,7 +757,7 @@ section {
     position: absolute;
     top: 20px;
     right: 20px;
-    background: #1e40af;
+    background: #910909;
     color: white;
     padding: 4px 12px;
     border-radius: 12px;
@@ -779,7 +779,7 @@ section {
 
 /* Testimonials Section */
 .testimonials-section {
-    background: linear-gradient(135deg, #eff6ff 0%, #e0e7ff 50%, #f3e8ff 100%);
+    background: linear-gradient(135deg, #dc0f0f 0%, #910909 50%, #520202 100%);
 }
 
 .testimonials-grid {
@@ -911,7 +911,7 @@ section {
 
 .contact-card i {
     font-size: 32px;
-    color: #1e40af;
+    color: #910909;
     margin-bottom: 12px;
 }
 
@@ -923,7 +923,7 @@ section {
 
 .contact-card p {
     font-weight: 500;
-    color: #1e40af;
+    color: #910909;
     margin-bottom: 4px;
 }
 
